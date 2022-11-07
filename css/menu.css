@@ -1,0 +1,20 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding-right: 20px;
+}
+
+.menu li{
+    border-bottom: 4px solid transparent ; /*Linha de Borda quando passar o mouse*/
+    transition: border-color .5s;
+}
+
+.menu li:hover{
+    border-color:var(--primary-line-color);
+ }
+
+ .menu-bars{
+    display: none;
+ }

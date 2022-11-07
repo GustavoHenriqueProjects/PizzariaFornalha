@@ -1,0 +1,20 @@
+body{
+    
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+    "title title title"
+    "conteudo conteudo conteudo";
+}
+
+header{
+      grid-area: title;
+      display: flex;
+      width: 100vw;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}

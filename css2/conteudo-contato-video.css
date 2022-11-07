@@ -1,0 +1,7 @@
+.conteudo-contato-video{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
