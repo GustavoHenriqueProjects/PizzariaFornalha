@@ -3,6 +3,17 @@ video{
 }
 
 .imagem-delivery{
-    height: 90%;
-    margin-right: 20px;
+    height: 100%;
+    
+}
+
+@media (max-width: 960px){
+    .conteudo-imagem{
+        height: 50%;
+    }
+
+    video{
+        height: 50%;
+    }
+    
 }
