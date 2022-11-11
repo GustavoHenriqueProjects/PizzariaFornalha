@@ -1,19 +1,21 @@
 video{
-    height: 100%;
+    height: 600px;
 }
 
 .imagem-delivery{
-    height: 100%;
+    height: 30%;
     
 }
 
 @media (max-width: 960px){
     .conteudo-imagem{
-        height: 50%;
+        display: none;
+       
     }
 
     video{
-        height: 50%;
+        height: 40%;
+        
     }
     
 }

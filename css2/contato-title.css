@@ -3,4 +3,13 @@
     font-size: 30px;
 }
 
+@media (max-width: 960px){
 
+    .conteudo-titulo{ 
+     display: flex;
+     font-size: 1.5rem;
+     padding-top: 30px;
+     padding-left: 20px;
+     color: white;
+    }
+}

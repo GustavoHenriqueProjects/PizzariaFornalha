@@ -1,23 +1,19 @@
 body{
-    
+   
+    height: 100vh;
     background-color: black;
-    display: grid;
-    grid-template-areas: 
-    "title title title"
-    "conteudo conteudo conteudo";
+   
 }
 
 header{
-      grid-area: title;
+    
       display: flex;
-      width: 100vw;
+      
 }
 
 main{
-    grid-area: conteudo;
     display: flex;
-    justify-content: space-between;
-    width: 100vw;
+    justify-content: space-around;
     height: 90vh;
 }
 
@@ -31,7 +27,9 @@ section{
     }
 
     main.back{
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     section{

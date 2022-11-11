@@ -1,20 +1,21 @@
 .conteudo-contato-video{
     display: flex;
-    width: 100vw;
     justify-content: space-around;
     align-items: center;
     
 }
 
 @media (max-width: 960px){
+   main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
     .conteudo-contato-video{
         display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        height: auto;
         flex-direction: column;
-        width: 100%;
-        justify-content: space-between;
+        
        
     }
     
