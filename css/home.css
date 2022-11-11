@@ -1,7 +1,33 @@
-.home{
+.home {
     background-image: url(../css/img/Home.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
     
+
+}
+
+.home-button {
+    background-color: #FDA701;
+    width: 194px;
+    height: 95px;
+    border: none;
+    border-radius: 50px;
+    transform: translatex(320px);
+    
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 67px;
+    color: white;
+}
+
+.home-button:hover{
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: inset 0 0 25px #9efc07;
 }
