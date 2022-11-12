@@ -2,11 +2,15 @@
     background-image: url(../css/img/Home.png);
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: start;
-    align-items: center;
     
+}
 
+.home-container-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
 }
 
 .home-button {
@@ -15,7 +19,7 @@
     height: 95px;
     border: none;
     border-radius: 50px;
-    transform: translatex(320px);
+    
     
     font-family: 'Sacramento', cursive;
     font-style: normal;
