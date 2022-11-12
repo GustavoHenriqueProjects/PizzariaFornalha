@@ -18,3 +18,26 @@
  .menu-bars{
     display: none;
  }
+
+ @media (max-width: 960px){
+    .menu{
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        background-color: greenyellow;
+    }
+
+}
+
+@media (max-width: 640px){
+    .menu{
+        display: none;
+    }
+
+    .menu-bars{
+        display: flex;
+        padding-right: 32px;
+        
+    }
+   
+}

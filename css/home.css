@@ -1,6 +1,7 @@
 .home {
     background-image: url(../css/img/Home.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     
 }
@@ -9,7 +10,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100%;
 }
 
@@ -34,4 +34,27 @@
   padding: 15px;
   border-radius: 50px;
   box-shadow: inset 0 0 25px #9efc07;
+}
+
+@media (max-width: 960px){
+  
+}
+
+@media (max-width: 640px){
+  .home-button {
+    background-color: #FDA701;
+    width: 170px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    
+    
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 67px;
+    color: white;
+}
+
 }
