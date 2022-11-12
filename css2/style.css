@@ -15,6 +15,7 @@ section{
 
     grid-template-rows: 10% 1fr ;
     height: 100vh;
+   
 }
 
 header{
@@ -54,5 +55,9 @@ main{
 @media (max-width: 960px){
     header{
         font-size: 0.9rem;
+    }
+
+    main{
+        padding-top: 32px;
     }
 }
