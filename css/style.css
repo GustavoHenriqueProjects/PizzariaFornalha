@@ -3,8 +3,7 @@
 }
 
 body{
-    display: grid;
-    grid-template-areas: "content";
+
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
     background-color: black;
@@ -15,7 +14,7 @@ html{
 }
 
 header{
-    grid-area: content;
+    
     width: 100%;/*É relativo ao bloco que esta dentro*/
     display: flex;
     background-color: black;
@@ -28,10 +27,10 @@ header{
 }
 
 main{
-    grid-area: content;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 section{
