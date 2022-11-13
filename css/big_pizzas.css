@@ -1,0 +1,16 @@
+.big_pizzas{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    background-color: lightcyan;
+}
+
+.big_pizzas_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #fff;
+    height: 46px;
+    background-color: black;
+}
