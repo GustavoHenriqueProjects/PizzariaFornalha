@@ -62,7 +62,20 @@ h2{
 }
 
 @media (max-width: 960px){
-   
+    .promocoes{
+        height: auto;
+    }
+
+    .promocoes_main_imagem2{
+        padding-bottom: 40px;
+        
+    }
+
+    .promocoes_main_imagem1{
+        padding-bottom: 40px;
+        
+    }
+
 }
 
 @media (max-width: 640px){
