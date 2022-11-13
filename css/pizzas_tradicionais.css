@@ -1,3 +1,57 @@
 .pizzas_tradicionais{
-    background-color: aquamarine;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.pizzas_tradicionais_header{
+
+    display: flex;
+    align-items: center;
+    height: 43px;
+    padding-left: 60px;
+
+}
+
+.pizzas_tradicionais_conteudo_imagem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding-bottom: 33px;
+    
+}
+
+.pizzas_tradicionais_conteudo_titulo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 63%;
+    gap: 10px;
+}
+
+@media(max-width:960px){
+    .pizzas_tradicionais_header{
+        padding-left: 40px;
+    }
+}
+
+@media(max-width:640px){
+    .pizzas_tradicionais{
+        height: auto;
+    }
+
+    .pizzas_tradicionais_conteudo_imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 32px;
+    }
+
+    .pizzas_tradicionais_media{
+        padding-bottom: 30px;
+    }
+
 }
