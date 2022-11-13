@@ -13,7 +13,7 @@ video{
 }
 
 @media (max-width: 960px){
-    .conteudo-contati-video-imagem{
+    .conteudo-contato-video-imagem{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -30,7 +30,7 @@ video{
         align-items: center;
     }
     video{
-        height: 370px ;
+        height: 300px ;
     }
     .imagem-delivery{
         display: none;

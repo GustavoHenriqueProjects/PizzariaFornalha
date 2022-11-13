@@ -2,15 +2,53 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    
-    background-color: lightcyan;
 }
 
 .big_pizzas_header{
     display: flex;
     justify-content: center;
+}
+
+.big_pizzas_sub_titulo_conteudo1{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border-top: 3px solid #fff;
-    height: 46px;
-    background-color: black;
+    gap: 20px;
+    height: 100%;
+}
+
+
+.big_pizzas_Titulo_Texto{
+    
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.big_pizza_texto{
+    max-width: 50%;
+}
+
+@media (max-width: 960px){
+    .big_pizzas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+}
+
+@media (max-width:640px){
+    .big_pizzas_sub_titulo_conteudo1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .big_pizzas_Titulo_Texto{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+
+    }
+
 }
