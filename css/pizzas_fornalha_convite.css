@@ -35,6 +35,10 @@ video{
     padding-bottom: 20px;
 }
 
+video:hover{
+    transform: scale(1.56);
+}
+
 @media(max-width:960px){
     .pizzas_fornalha_convite{
         height: auto;
@@ -46,9 +50,9 @@ video{
 
     @media(max-width:640px){
         .pizzas_fonalha_convite_header{
-            height: 20px;
+            height: 30px;
         }
         video{
-            height: 110px;
+            height: 140px;
         }
 }

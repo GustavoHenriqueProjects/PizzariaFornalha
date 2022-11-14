@@ -3,7 +3,8 @@
 }
 
 body{
-
+    display: flex;
+    flex-direction: column;
     font-family: 'Ubuntu', sans-serif;
     color: #fff;
     background-color: black;
