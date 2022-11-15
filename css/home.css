@@ -42,6 +42,13 @@
 }
 
 @media (max-width: 640px){
+  header{
+    height: 40px;
+  }
+
+  .logo-imagem{
+    height: 40px;
+  }
   .home{
     height: 60vh;
   }

@@ -36,7 +36,7 @@ video{
 }
 
 video:hover{
-    transform: scale(1.56);
+    transform: scale(1.05);
 }
 
 @media(max-width:960px){
@@ -53,6 +53,6 @@ video:hover{
             height: 30px;
         }
         video{
-            height: 140px;
+            height: 160px;
         }
 }
