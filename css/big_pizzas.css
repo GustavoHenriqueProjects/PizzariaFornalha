@@ -1,7 +1,7 @@
 .big_pizzas{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 75vh;
 }
 
 .big_pizzas_header{
