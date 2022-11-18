@@ -1,7 +1,7 @@
 .big_pizzas{
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 80vh;
 }
 
 .big_pizzas_header{
@@ -29,9 +29,9 @@
 .big_pizzas_Titulo_Texto{
     
     display: flex;
-   
+    
     padding-top: 20px;
-  
+    padding-left: 18%;
     height: auto;
     width: 90vw;
     gap: 20px;
