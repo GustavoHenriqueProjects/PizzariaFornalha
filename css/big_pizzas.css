@@ -2,14 +2,13 @@
     display: flex;
     flex-direction: column;
     height: 85vh;
+    border-top: 3px solid #fff;
 }
 
 .big_pizzas_header{
     display: flex;
     justify-content: center;
-    padding: 10px;
-    border-top: 3px solid #fff;
-    
+    padding: 10px; 
     
 }
 
