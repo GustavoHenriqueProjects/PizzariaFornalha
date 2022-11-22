@@ -7,6 +7,7 @@
     <meta name="description" content="Site de pizza, esta é a area ajuda">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css2/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css2/style.css">
     <link rel="stylesheet" href="./css2/conteudo-titulo.css">
     <link rel="stylesheet" href="./css2/conteudo-contato-video-imagem.css">
@@ -17,6 +18,18 @@
 </head>
 
 <body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
     <section>
         <header>
             <h1 class="conteudo-titulo">Caso presise de ajuda nos cantate nestes canais:</h1>
@@ -69,6 +82,9 @@
                 </div>
             </div>
         </main>
+        <section class="footer">
+            <p class="footer_texto">Fornalha Pizzas 2022</p>
+        </section>
     </section>
 </body>
 

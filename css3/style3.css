@@ -7,12 +7,16 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    background-color: white;
+    color: white;
 }
 
 section {
 
     height: auto;
-    background-color: rgb(204, 3, 254);
+    background-color:#6D0094;
+
+    
 }
 
 .titulo-subtitulo-home{
@@ -139,8 +143,6 @@ fieldset {
 
 }
 
-
-
 .formulario-container-button {
 
     display: flex;
@@ -167,6 +169,13 @@ fieldset {
     line-height: 67px;
     color: white;
 }
+
+.button:hover{
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: inset 0 0 25px #9efc07;
+  }
 
 
 @media(max-width:640px) {

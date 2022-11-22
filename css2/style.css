@@ -54,6 +54,23 @@ main{
     grid-area: main;
 }
 
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid #fff;
+    height: 100%;
+
+}
+
+.footer_texto{
+    padding-top: 10px;
+    font-family: 'Sacramento', cursive;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: white
+}
+
 @media (max-width: 960px){
     section{
         height: auto;
@@ -71,6 +88,23 @@ main{
     .home{
         padding-right: 20px;
         font-size: 16px;
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 3px solid #fff;
+        height: 100%;
+    
+    }
+
+    .footer_texto{
+        padding-top: 10px;
+        font-family: 'Sacramento', cursive;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: white
     }
     
 }

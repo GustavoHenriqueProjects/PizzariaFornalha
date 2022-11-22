@@ -14,6 +14,17 @@
 
 <body>
 
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
     <section class="Formulario">
         <div class="titulo-subtitulo-home">
             <div>
@@ -34,19 +45,19 @@
             <fieldset class="grupo-nome-sobrenome">
                 <div class="nome">
                     <label for="nome" aria-label="Nome">Nome:</label>
-                    <input type="text" name="nome" id="caixa_texto_nome" required>
+                    <input type="text" name="nome" id="caixa_texto_nome" aria-label="Caixa de texto Nome" required>
                 </div>
 
                 <div class="sobrenome">
                     <label for="sobrenome" aria-label="Sobrenome">Sobrenome:</label>
-                    <input type="text" name="sobrenome" id="caixa_texto_sobrenome" required>
+                    <input type="text" name="sobrenome" id="caixa_texto_sobrenome" aria-label=" Caixa de texto Sobrenome " required>
                 </div>
             </fieldset>
 
             <fieldset class="grupo-telefone">
                 <div class="telefone">
                     <label for="telefone" aria-label="telefone">Telefone:</label>
-                    <input type="telefone" name="telefone" id="caixa_texto_telefone" required>
+                    <input type="telefone" name="telefone" id="caixa_texto_telefone" aria-label="Caixa de texto Telefone" required>
                 </div>
             </fieldset>
             <fieldset class="grupo-Avaliacao">
@@ -54,15 +65,15 @@
                     <label aria-label="Nota da pizzaria">Qual nota você daria para a Pizzaria Fornalha:</label>
                     <div class="check-avalicao-nota">
                         <label aria-label="Otimo">
-                            <input type="radio" name="nota" value="otimo" checked>Ótimo
+                            <input type="radio" name="nota" value="otimo" aria-label="Otimo" checked>Ótimo
                         </label>
 
                         <label aria-label="Bom">
-                            <input type="radio" name="nota" value="bom" checked>Bom
+                            <input type="radio" name="nota" value="bom" aria-label="Bom" checked>Bom
                         </label>
 
-                        <label aria-valuemax="Ruin">
-                            <input type="radio" name="nota" value="ruin" checked>Ruin
+                        <label aria-label="Ruin">
+                            <input type="radio" name="nota" value="ruin"  aria-label="Ruin" checked>Ruin
                         </label>
                     </div>
                 </div>
@@ -82,47 +93,47 @@
                     <label>Selecione o tipo de pizza que você deseja:</label>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor1" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor1" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="Pizzas preço" for="LombocomRequeijão">Lombo com Requeijão 34,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor2" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor2" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="Pizzas preço" for="LombocomRequeijão">Margarita com Cocumelo 34,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor3" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor3" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label for="LombocomRequeijão">Calabreza 37,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input  type="checkbox" id="saborPizza" name="sabor4" value="Pizzas">
+                        <input  type="checkbox" id="saborPizza" name="sabor4" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="Pizzas preço" for="LombocomRequeijão">Mussarela e Marquerita 40,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor5" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor5" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="Pizzas preço" for="LombocomRequeijão">Palmito 33,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor6" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor6" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="pizzas preço" for="LombocomRequeijão">Atum 29,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor7" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor7" aria-label="Checkbox para escolher o sabor da pizzas"  value="Pizzas">
                         <label  aria-label="pizzas preço" for="LombocomRequeijão">Baiana 26,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="sabor8" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="sabor8" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="Pizzas preço" for="LombocomRequeijão">Brocolis 26,99 $</label>
                     </div>
 
                     <div class="checkbox-Pizzas">
-                        <input type="checkbox" id="saborPizza" name="outroSabor" value="Pizzas">
+                        <input type="checkbox" id="saborPizza" name="outroSabor" aria-label="Checkbox para escolher o sabor da pizzas" value="Pizzas">
                         <label aria-label="Pizzas outro sabor" for="LombocomRequeijão">Outro Sabor</label>
                     </div>
 
@@ -134,7 +145,7 @@
         <div class="escolha-de-pedido-container-button">
             <div class="Escolha-de-pedido">
                 <label aria-label="Escreva o tipo de pizza que deseja">Escreva o tipo de sabor que você deseja:</label>
-                <textarea class="texto" row="6" id="escolha-pedido-texto" name="SaborQueVoceDeseja"></textarea>
+                <textarea class="texto" row="6" id="escolha-pedido-texto" name="SaborQueVoceDeseja" aria-label="Caixa de texto para escrevrer o sabor de pizza"></textarea>
             </div>
 
             <div class="formulario-container-button">
