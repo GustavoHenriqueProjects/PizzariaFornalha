@@ -47,7 +47,7 @@ header{
 .home{
     padding-right: 33px;
     color: white;
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 
 main{
@@ -67,7 +67,7 @@ main{
     padding-top: 10px;
     font-family: 'Sacramento', cursive;
     font-style: normal;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     color: white
 }
 

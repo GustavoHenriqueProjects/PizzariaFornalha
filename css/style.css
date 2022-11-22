@@ -18,6 +18,7 @@ header{
     
     width: 100%;/*É relativo ao bloco que esta dentro*/
     display: flex;
+    position: fixed;
     background-color: black;
     justify-content: space-between;
     align-items: center;
