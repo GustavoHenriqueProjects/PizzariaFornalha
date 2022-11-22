@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/burger.js" defer></script>
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/promocoes.css">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="./css/pizzas_tradicionais_imagens.css">
     <link rel="stylesheet" href="./css/pizzas_tradicionais.css">
     <link rel="stylesheet" href="./css/pizzas_fornalha_convite.css">
+    <link rel="stylesheet" href="./css/burger.css">
     <title>Fornalhas Pizzas</title>
 </head>
 
@@ -27,13 +29,13 @@
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
+            <div class="vw-plugin-top-wrapper"></div>
         </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+    </script>
 
     <section class="home" id="home">
         <header>
@@ -41,6 +43,9 @@
                 <img class="logo-imagem" src="./css/img/logo.svg" alt="foto logo">
             </div>
             <nav>
+                <a href="#" class="menu-burger-container">
+                    <i class="menu-burger"></i>
+                </a>
                 <ul class="menu">
                     <li>
                         <a href="#home" aria-label="Tela inícial">Início</a>
@@ -60,9 +65,7 @@
 
                 </ul>
             </nav>
-            <div class="menu-bars">
-                <i class="fas fa-bars"></i>
-            </div>
+
         </header>
 
         <div class="home-container-button">
@@ -98,9 +101,7 @@
                         Calabreza:
                     </h3>
                     <p class="big_pizza_texto">
-                        Com queijo, molho de tomate, calabresa em rodelas,
-                        cebola, tomate picado, azeite e orégano.
-                        A azeitona também pode ser acrescentada!
+                        Com queijo, molho de tomate, calabresa em rodelas, cebola, tomate picado, azeite e orégano. A azeitona também pode ser acrescentada!
                     </p>
                 </div>
                 <div class="big_pizza_imagem">
@@ -119,8 +120,7 @@
                         Mussarela e Marquerita:
                     </h3>
                     <p class="big_pizza_texto">
-                        Marquerita, molho de tomate fresco, azeitonas,
-                        rodelas de tomate e orégano(Azeitonas é opecional).
+                        Marquerita, molho de tomate fresco, azeitonas, rodelas de tomate e orégano(Azeitonas é opecional).
                     </p>
                 </div>
                 <div class="big_pizza_imagem">
@@ -163,15 +163,14 @@
                     <p class="pizzas_tradicionais_media">Média-R$ 29,99 reais</p>
                 </div>
 
-                <img class="pizzas_tradicionais_imagens" src="./css/img/pizzaTracionalAtum.png"
-                    alt="pizzas tradicionais imagem">
+                <img class="pizzas_tradicionais_imagens" src="./css/img/pizzaTracionalAtum.png" alt="pizzas tradicionais imagem">
             </div>
 
             <div class="pizzas_tradicionais_conteudo_imagem">
                 <div class="pizzas_tradicionais_conteudo_titulo">
                     <h4 class="Pizzas_tradicionais_titulo">Baiana:</h4>
-                    <p class="pizzas_tradicionais_texto">Molho de tomate, calabresa moída, cebola roxa e pimenta
-                        calabresa.</p>
+                    <p class="pizzas_tradicionais_texto">Molho de tomate, calabresa moída, cebola roxa e pimenta calabresa.
+                    </p>
                     <p class="pizzas_tradicionais_grande">Grande-R$ 43,99 reais</p>
                     <p class="pizzas_tradicionais_media">Média-R$ 26,99 reais</p>
                 </div>
@@ -181,8 +180,8 @@
             <div class="pizzas_tradicionais_conteudo_imagem">
                 <div class="pizzas_tradicionais_conteudo_titulo">
                     <h4 class="Pizzas_tradicionais_titulo">Brócolis:</h4>
-                    <p class="pizzas_tradicionais_texto">Molho de tomate, calabresa moída, cebola roxa e pimenta
-                        calabresa.</p>
+                    <p class="pizzas_tradicionais_texto">Molho de tomate, calabresa moída, cebola roxa e pimenta calabresa.
+                    </p>
                     <p class="pizzas_tradicionais_grande">Grande-R$ 46,99 reais</p>
                     <p class="pizzas_tradicionais_media">Média-R$ 26,99 reais</p>
                 </div>
