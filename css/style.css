@@ -71,23 +71,14 @@ section{
             position: relative;
         }
 
-      .menu-li-inicio{
+        .menu li {
+            border-bottom: 4px transparent;
+            /*Linha de Borda quando passar o mouse*/
+            transition: border-color .5s;
+        }
 
-      }
-
-      .menu-li-promocao{
-
-      }
-
-      .menu-li-bigPizzas{
-
-      }
-
-      .menu-li-pizzasTradicionais{
-
-      }
-
-      .menu-li-ajuda{
-        
-      }
+        .menu li:hover {
+            border-top: var(--primary-line-color);
+            transform: scale(1.2);
+        }
 }
