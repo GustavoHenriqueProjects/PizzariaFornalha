@@ -67,5 +67,27 @@ section{
     }
 
     @media(max-width:640px){
-       
+        header{
+            position: relative;
+        }
+
+      .menu-li-inicio{
+
+      }
+
+      .menu-li-promocao{
+
+      }
+
+      .menu-li-bigPizzas{
+
+      }
+
+      .menu-li-pizzasTradicionais{
+
+      }
+
+      .menu-li-ajuda{
+        
+      }
 }
