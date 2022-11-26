@@ -198,7 +198,8 @@ fieldset {
 
 @media(max-width:940px) {
     body{
-        display: inline;
+        display: flex;
+        justify-content: flex-start;
     }
     .Formulario{
         height: auto;
@@ -207,7 +208,7 @@ fieldset {
 }
 
 @media(max-width:640px) {
-
+    
     .Formulario{
         height: auto;
     
