@@ -82,6 +82,10 @@ main{
     main{
         padding-top: 32px;
     }
+
+    .footer{
+        height: auto;
+    }
 }
 
 @media (max-width: 640px){
