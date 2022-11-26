@@ -21,12 +21,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     height: 50px;
 }
 
-
 .conteudo-titulo{
+    
     padding-left: 32px;
     font-size: 1.2rem;
     
@@ -76,9 +75,7 @@ main{
 }
 
 @media (max-width: 960px){
-    body{
-        height: auto;
-    }
+    
     section{
 
         height: 100%;
@@ -87,6 +84,9 @@ main{
         height: 40px;
         font-size: 0.9rem;
     }
+    .home{
+        padding-top: 10px;
+    }
 
     main{
         padding-top: 32px;
@@ -94,9 +94,16 @@ main{
 }
 
 @media (max-width: 640px){
+    section{
+        height: auto;
+    }
     .home{
+        padding-top: 20px;
         padding-right: 20px;
         font-size: 16px;
+    }
+    .conteudo-titulo{
+        padding-top: 20px;
     }
 
     .footer{
