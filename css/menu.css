@@ -39,9 +39,9 @@
         justify-content: center;
         gap: 90px;
         background-color: black;
-        transform: translateX(100%);
+        /*transform: translateX(100%);*/
         opacity: 0;
-        z-index: 3;
+        z-index: 10;
         transition: all 1s;
     }
     .menu-bars {
