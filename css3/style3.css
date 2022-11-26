@@ -18,7 +18,7 @@ body {
 
 section {
 
-    height: 100%;
+    height: 100vh;
     background-color:#941df5;
     background: linear-gradient(-45deg, #8e52ee, #8c3ce7, #b723d5, #aa06c0);
 	
